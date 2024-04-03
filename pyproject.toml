@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "vacancies-bd"
+version = "0.1.0"
+description = ""
+authors = ["Tatiana Chepurnaya <tanyusha_tokor@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+config = "^0.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
